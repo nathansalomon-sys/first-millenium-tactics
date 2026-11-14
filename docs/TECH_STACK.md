@@ -50,7 +50,7 @@ Build order: browser on PC → browser on phone → Android app → iOS app. Sto
 - Needs Xcode, which only runs on macOS. With no Mac, use a cloud Mac: GitHub Actions has macOS build machines (free for public repositories, charged at a higher rate for private ones), and paid services can handle the build and code signing.
 - Apple Developer Program: $99 per year. TestFlight handles beta testing.
 
-Store rules and prices were checked on 2026-11-14. Check them again before starting the store milestone.
+The Google Play testing rule was checked on 2026-11-14. The account prices are as last known and were not re-checked. Check both again before starting the store milestone.
 
 ## Playtest link
 
