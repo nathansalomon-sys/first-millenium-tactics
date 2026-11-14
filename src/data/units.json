@@ -1,0 +1,52 @@
+{
+  "infantry": {
+    "name": "Infantry",
+    "trait": "Shield wall",
+    "baseCost": 100,
+    "endurance": 100,
+    "startingMorale": 70,
+    "mp": 3,
+    "melee": 20,
+    "shock": 12,
+    "chargeMinHexes": 1,
+    "volley": null,
+    "vision": 4,
+    "frontDamageReduction": 0.4,
+    "meleeDamageTaken": 1.0
+  },
+  "archers": {
+    "name": "Foot archers",
+    "trait": "Volleys",
+    "baseCost": 90,
+    "endurance": 100,
+    "startingMorale": 70,
+    "mp": 3,
+    "melee": 6,
+    "shock": 0,
+    "chargeMinHexes": null,
+    "volley": {
+      "attack": 8,
+      "rangeMin": 2,
+      "rangeMax": 4,
+      "ammo": 6
+    },
+    "vision": 5,
+    "frontDamageReduction": 0,
+    "meleeDamageTaken": 1.25
+  },
+  "cavalry": {
+    "name": "Cavalry",
+    "trait": "Speed and shock",
+    "baseCost": 160,
+    "endurance": 100,
+    "startingMorale": 70,
+    "mp": 6,
+    "melee": 16,
+    "shock": 30,
+    "chargeMinHexes": 2,
+    "volley": null,
+    "vision": 6,
+    "frontDamageReduction": 0,
+    "meleeDamageTaken": 1.0
+  }
+}

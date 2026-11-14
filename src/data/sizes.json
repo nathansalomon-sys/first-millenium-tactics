@@ -1,0 +1,26 @@
+{
+  "small": {
+    "name": "Small",
+    "hp": 60,
+    "costMultiplier": 0.6,
+    "mpModifier": 1,
+    "turnCostPerHexside": 0,
+    "shockMultiplier": 0.7
+  },
+  "medium": {
+    "name": "Medium",
+    "hp": 100,
+    "costMultiplier": 1.0,
+    "mpModifier": 0,
+    "turnCostPerHexside": 0.5,
+    "shockMultiplier": 1.0
+  },
+  "large": {
+    "name": "Large",
+    "hp": 150,
+    "costMultiplier": 1.5,
+    "mpModifier": -1,
+    "turnCostPerHexside": 1,
+    "shockMultiplier": 1.3
+  }
+}

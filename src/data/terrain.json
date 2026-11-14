@@ -1,0 +1,31 @@
+{
+  "open": {
+    "name": "Open",
+    "passable": true,
+    "moveCost": { "default": 1 },
+    "blocksLineOfSight": false,
+    "volleyIntoMultiplier": 1.0
+  },
+  "woods": {
+    "name": "Woods",
+    "passable": true,
+    "moveCost": { "default": 2, "cavalry": 3 },
+    "blocksLineOfSight": "beyondFirstWoodsHex",
+    "unitsInsideSeenOnlyFromAdjacent": true,
+    "volleyIntoMultiplier": 0.5,
+    "cavalryShockMultiplier": 0.5,
+    "cavalryMeleeMultiplier": 0.7
+  },
+  "river": {
+    "name": "River",
+    "passable": false,
+    "blocksLineOfSight": false,
+    "volleyIntoMultiplier": 1.0
+  },
+  "mountain": {
+    "name": "Mountain",
+    "passable": false,
+    "blocksLineOfSight": true,
+    "volleyIntoMultiplier": 1.0
+  }
+}

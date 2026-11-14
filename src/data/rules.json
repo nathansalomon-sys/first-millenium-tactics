@@ -1,0 +1,85 @@
+{
+  "board": {
+    "suggestedWidth": 20,
+    "suggestedHeight": 14,
+    "elevationLevels": [0, 1, 2]
+  },
+  "army": {
+    "defaultBudget": 1000,
+    "maxUnits": 10,
+    "exampleDefaultArmy": [
+      { "type": "infantry", "size": "medium", "count": 4 },
+      { "type": "infantry", "size": "small", "count": 1 },
+      { "type": "archers", "size": "medium", "count": 2 },
+      { "type": "cavalry", "size": "medium", "count": 2 }
+    ]
+  },
+  "damage": {
+    "arcMultiplier": { "front": 1.0, "flank": 1.5, "rear": 2.0 },
+    "moraleMultiplier": { "base": 0.75, "perMoralePoint": 0.005 },
+    "randomSpread": { "min": 0.85, "max": 1.15 },
+    "bleedToHpWhileSteady": { "melee": 0.1, "volley": 0.05, "shock": 0.2 }
+  },
+  "elevation": {
+    "uphillMoveCost": 1,
+    "attackDownhillMultiplier": 1.2,
+    "attackUphillMultiplier": 0.8,
+    "archerRangeBonusFromHigherGround": 1,
+    "visionBonusFromHigherGround": 2
+  },
+  "shock": {
+    "cavalryPenaltyMultiplier": 0.5,
+    "cavalryPenaltyConditions": ["infantryFrontArc", "intoWoods", "uphill"],
+    "penaltiesStack": true
+  },
+  "volley": {
+    "ammoPerVolley": 1,
+    "maxHexesMovedBeforeVolley": 1,
+    "rangeFalloff": { "2": 1.0, "3": 0.8, "4": 0.6 },
+    "friendlyUnitsBlock": false
+  },
+  "engagement": {
+    "engagedMp": 1,
+    "disengageDistance": 1,
+    "disengageMoraleCost": 10
+  },
+  "morale": {
+    "min": 0,
+    "max": 100,
+    "events": {
+      "friendlyRoutsWithin2": -10,
+      "friendlyDestroyedWithin3": -10,
+      "disengaging": -10,
+      "attackedInFlank": -5,
+      "attackedInRear": -10,
+      "adjacentEnemyRouts": 10
+    }
+  },
+  "endurance": {
+    "min": 0,
+    "max": 100,
+    "regenPerTurn": 5,
+    "noRegenBelowMorale": 25
+  },
+  "rout": {
+    "atEndurance": 0,
+    "belowHpFraction": 0.2,
+    "mpModifier": -1,
+    "minMp": 1,
+    "corneredDamageMultiplier": 0.25,
+    "damageAlwaysResolvedAs": "rear"
+  },
+  "rally": {
+    "turnsWithoutBeingAttacked": 2,
+    "returnsAtEndurance": 30,
+    "returnsAtMorale": 40
+  },
+  "visibility": {
+    "enduranceBands": { "freshAbove": 66, "shakenBelow": 33 }
+  },
+  "timers": {
+    "turnSeconds": 90,
+    "playerSeconds": 600,
+    "matchSeconds": 1500
+  }
+}
