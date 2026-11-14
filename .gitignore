@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+# Capacitor native projects are generated later (see docs/TECH_STACK.md)
+/android/
+/ios/

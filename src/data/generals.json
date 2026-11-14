@@ -1,0 +1,26 @@
+{
+  "vanguard": {
+    "name": "The Vanguard",
+    "style": "Aggressive",
+    "buffs": {
+      "shockMultiplier": 1.15,
+      "startingMorale": { "cavalry": 80 }
+    }
+  },
+  "bulwark": {
+    "name": "The Bulwark",
+    "style": "Defensive",
+    "buffs": {
+      "frontDamageReduction": { "infantry": 0.5 },
+      "enduranceRegenBonus": 3
+    }
+  },
+  "marksman": {
+    "name": "The Marksman",
+    "style": "Ranged",
+    "buffs": {
+      "volleyRangeBonus": 1,
+      "volleyAmmoBonus": 2
+    }
+  }
+}
